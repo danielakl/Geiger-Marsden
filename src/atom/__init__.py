@@ -1,2 +1,1 @@
-__all__ = ["Atom", "Gold"]
-
+__all__ = ["Gold"]

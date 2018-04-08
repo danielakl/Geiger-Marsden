@@ -1,9 +1,10 @@
-from atom.Atom import Atom
+import math
 
 
-class Gold(Atom):
-    def __init__(self):
-        """
-        Construct a gold atom.
-        """
-        Atom.__init__(self, 196.966569)
+class Gold:
+    atomicWeight = 196.9665
+    density = 19320000  # g/m^3
+    atomRadius = 1.35e-10  # m
+    atomArea = math.pi * atomRadius ** 2  # m^2
+    nucleusRadius = 7.3e-15  # m
+    nucleusArea = math.pi * nucleusRadius ** 2  # m^2
